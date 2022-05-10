@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.348540d6.css",
-    "main.js": "/static/js/main.d68a5b76.js",
+    "main.css": "/static/css/main.ee47bead.css",
+    "main.js": "/static/js/main.809d9448.js",
     "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
-    "static/media/video.mp4": "/static/media/video.cbc4864e3201df9a76f8.mp4",
+    "static/media/richard-hong-wide.jpg": "/static/media/richard-hong-wide.2f90a7079cedabb87c04.jpg",
+    "static/media/brace-left.png": "/static/media/brace-left.a2e0790528bafed01032.png",
+    "static/media/brace-right.png": "/static/media/brace-right.f537e4bd95a496370343.png",
     "index.html": "/index.html",
-    "main.348540d6.css.map": "/static/css/main.348540d6.css.map",
-    "main.d68a5b76.js.map": "/static/js/main.d68a5b76.js.map",
+    "main.ee47bead.css.map": "/static/css/main.ee47bead.css.map",
+    "main.809d9448.js.map": "/static/js/main.809d9448.js.map",
     "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.348540d6.css",
-    "static/js/main.d68a5b76.js"
+    "static/css/main.ee47bead.css",
+    "static/js/main.809d9448.js"
   ]
 }
