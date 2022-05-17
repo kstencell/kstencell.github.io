@@ -6,7 +6,7 @@ import './CSS/NavigationBar.css';
 
 function NavigationBar() {
     return (
-        <Navbar bg="dark" expand="sm" variant='dark' className='navigationBar'>
+        <Navbar bg="dark" variant='dark' className='navigationBar navbar-expand'>
         <Container>
             <Navbar.Brand>Karl Stencell</Navbar.Brand>
             <Nav className='me-auto'>

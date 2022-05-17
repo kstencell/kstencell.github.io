@@ -29,11 +29,11 @@ function Header() {
                     <Row className='h-40 justify-content-center align-items-center text-light titleFont nowrap' data-aos="zoom-in" data-aos-delay="100" data-aos-easing="ease">
                         Hi. I'm Karl Stencell
                     </Row>
-                    <Container className='d-flex flex-row h-40 justify-content-center align-items-stretch'>
+                    <Container className='d-flex flex-row justify-content-center align-items-stretch middle-row'>
                         <Col className='d-flex align-items-center justify-content-end' data-aos="fade-right" data-aos-delay="600" data-aos-easing="ease" data-aos-duration="1500">
-                            <img src={BraceLeft} className='brace-image brace-image-left align-self-start'/>
+                            <img src={BraceLeft} className='brace-image align-self-center'/>
                         </Col>
-                        <Col className='col-auto'>
+                        <Col className='col-auto mb-3'>
                             <Container classname='d-flex flex-column justify-content-center'>
                                 <Row className='justify-content-center titleFont2 text-light nowrap' data-aos="fade-up" data-aos-delay="650" data-aos-easing="ease">
                                 Software Engineer
@@ -58,15 +58,15 @@ function Header() {
                                 </Row>
                             </Container>
                         </Col>
-                        <Col data-aos="fade-left" data-aos-delay="600" data-aos-easing="ease" data-aos-duration="1500">
-                            <img src={BraceRight} className='brace-image brace-image-right'/>
+                        <Col className='d-flex align-items-center justify-content-start' data-aos="fade-left" data-aos-delay="600" data-aos-easing="ease" data-aos-duration="1500">
+                            <img src={BraceRight} className='brace-image align-self-center'/>
                         </Col>
                     </Container>
-                    <Container className="d-flex flex-column h-20 justify-content-around" data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease">
+                    <Container className="d-flex flex-column justify-content-around mt-auto" data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease">
                         <Row className='justify-content-center'>
                             <h5 class='text-light titleFont3 pt-3'>SCROLL DOWN</h5>
                         </Row>
-                        <Row className='justify-content-center'>
+                        <Row className='justify-content-center m-3'>
                             <Scroll/>
                         </Row>
                     </Container>
