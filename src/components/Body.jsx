@@ -7,12 +7,15 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 
 import AboutMe from './AboutMe'
+import Projects from './Projects';
+
 
 
 function Body() {
     return ( 
         <Container className='body-view'>
             <AboutMe/>
+            <Projects/>
         </Container>
      );
 }

@@ -1,0 +1,13 @@
+.card-group {
+    margin-top: 5vh;
+}
+
+.card {
+    max-width: 500px;
+}
+
+.project-view-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
