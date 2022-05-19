@@ -2,8 +2,10 @@ import './App.css';
 import React, {useEffect} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 
-import Header from './components/Header';
 import NavigationBar from './components/NavigationBar';
+import Header from './components/Header';
+import Body from './components/Body';
+
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
@@ -16,9 +18,10 @@ function App() {
   }, []);
 
   return (
-    <React.Fragment>
+    <React.Fragment className='App'>
       <NavigationBar/>
       <Header/>
+      <Body/>
     </React.Fragment> 
   );
 }
