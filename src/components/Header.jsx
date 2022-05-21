@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 import { Row, Col } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
-// import video from '../assets/video.mp4';
 import BraceRight from '../assets/brace-right.png';
 import BraceLeft from '../assets/brace-left.png';
 import WhiteDot from '../assets/white-dot.png';
@@ -30,8 +29,8 @@ function Header() {
                         Hi. I'm Karl Stencell
                     </Row>
                     <Container className='d-flex flex-row justify-content-center align-items-stretch middle-row'>
-                        <Col className='d-flex align-items-center justify-content-end' data-aos="fade-right" data-aos-delay="600" data-aos-easing="ease" data-aos-duration="1500">
-                            <img src={BraceLeft} className='brace-image align-self-center'/>
+                        <Col className='p-0 d-flex align-items-start justify-content-end' data-aos="fade-right" data-aos-delay="600" data-aos-easing="ease" data-aos-duration="1500">
+                            <img src={BraceLeft} className='brace-image'/>
                         </Col>
                         <Col className='col-auto mb-3'>
                             <Container classname='d-flex flex-column justify-content-center'>
@@ -58,8 +57,8 @@ function Header() {
                                 </Row>
                             </Container>
                         </Col>
-                        <Col className='d-flex align-items-center justify-content-start' data-aos="fade-left" data-aos-delay="600" data-aos-easing="ease" data-aos-duration="1500">
-                            <img src={BraceRight} className='brace-image align-self-center'/>
+                        <Col className='p-0 d-flex align-items-start justify-content-start' data-aos="fade-left" data-aos-delay="600" data-aos-easing="ease" data-aos-duration="1500">
+                            <img src={BraceRight} className='brace-image'/>
                         </Col>
                     </Container>
                     <Container className="d-flex flex-column justify-content-around mt-auto" data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease">
@@ -72,8 +71,8 @@ function Header() {
                     </Container>
                 </Container>
             </Container>
+            <a id='about-me-anchor'/>
         </Container>
-            // <img src={BackgroundImage} alt='' className='bg-image background-image shadow-2-strong'/>
     );
 }
 

@@ -6,8 +6,12 @@
 .brace-image {
     max-height: 100%;
     position: absolute;
-    height: inherit;
-    width: auto;
+    /* height: inherit; */
+    /* height: clamp(220px, 50vw, 400px);
+    width: auto; */
+    object-fit: contain;
+    height: auto;
+    width: clamp(60px, 4.75vw, 200px);
     margin: 0;
     padding: 0;
 }
@@ -89,5 +93,9 @@
     max-height: 300px;
     min-height: 210px;
     height: auto;
-    width: 100%;
+    width: auto;
+}
+
+.card-img {
+    max-height: 250px;
 }
