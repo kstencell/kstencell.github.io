@@ -1,20 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.77da0d46.css",
-    "main.js": "/static/js/main.285590e4.js",
+    "main.css": "/static/css/main.4fe53e6f.css",
+    "main.js": "/static/js/main.f61e4884.js",
     "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
     "static/media/richard-hong-wide.jpg": "/static/media/richard-hong-wide.2f90a7079cedabb87c04.jpg",
     "static/media/me.png": "/static/media/me.b94dc4cf21077c84f26b.png",
+    "static/media/website-thumbnail-w400.jpg": "/static/media/website-thumbnail-w400.d71a7cadfed3cd1be380.jpg",
+    "static/media/tic-tac-toe-thumbnail.png": "/static/media/tic-tac-toe-thumbnail.04f799476603e908814f.png",
     "static/media/looking-for-work-note.png": "/static/media/looking-for-work-note.b3fd8a3dc079c55dc7fd.png",
+    "static/media/curl-down.png": "/static/media/curl-down.03dc32320e68c752253b.png",
+    "static/media/curl-up.png": "/static/media/curl-up.2baa253bd67b68114754.png",
+    "static/media/guitar-practice-thumbnail.jpg": "/static/media/guitar-practice-thumbnail.8c365e81a8c343b39b7e.jpg",
+    "static/media/crew-dragon-thumbnail.png": "/static/media/crew-dragon-thumbnail.1667ebbfcc1d791b7c7f.png",
+    "static/media/pixel-sketch-thumbnail.jpg": "/static/media/pixel-sketch-thumbnail.0553512446ba876316a4.jpg",
     "static/media/brace-left.png": "/static/media/brace-left.a2e0790528bafed01032.png",
     "static/media/brace-right.png": "/static/media/brace-right.f537e4bd95a496370343.png",
+    "static/media/sentiment-analysis.png": "/static/media/sentiment-analysis.eda3b718d3cd0c75a37d.png",
     "index.html": "/index.html",
-    "main.77da0d46.css.map": "/static/css/main.77da0d46.css.map",
-    "main.285590e4.js.map": "/static/js/main.285590e4.js.map",
+    "main.4fe53e6f.css.map": "/static/css/main.4fe53e6f.css.map",
+    "main.f61e4884.js.map": "/static/js/main.f61e4884.js.map",
     "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77da0d46.css",
-    "static/js/main.285590e4.js"
+    "static/css/main.4fe53e6f.css",
+    "static/js/main.f61e4884.js"
   ]
 }
