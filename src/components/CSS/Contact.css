@@ -1,0 +1,118 @@
+
+.contact-title {
+    width: min(500px, 25%);
+    padding-bottom: 4vh;
+    color: black;
+    margin-bottom: 5vh;
+    border-bottom: 1px solid #aaa;
+}
+
+.contact-view-container {
+    height: auto;
+    width: 100%;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+}
+
+.button-row {
+    margin-top: 10vh;
+}
+
+.btn {
+  border: 0;
+}
+
+.social-btns .btn,
+.social-btns .btn:before,
+.social-btns .btn .fa {
+  transition: all 0.35s;
+  transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.btn:before {
+  top: 90%;
+  left: -110%;
+}
+.social-btns .btn .fa {
+  transform: scale(0.6);
+}
+.social-btns .btn.linkedin-in:before {
+  background-color: #0077B5;
+}
+.social-btns .btn.linkedin-in .fa {
+  color: #0077B5;
+  height: auto;
+}
+.social-btns .btn.github:before {
+  background-color: #6E5494;
+}
+.social-btns .btn.github .fa {
+  color: #6E5494;
+}
+.social-btns .btn.envelope:before {
+  background-color: #1DB954;
+}
+.social-btns .btn.envelope .fa {
+  color: #1DB954;
+}
+.social-btns .btn.dribbble:before {
+  background-color: #f26798;
+}
+.social-btns .btn.dribbble .fa {
+  color: #f26798;
+}
+.social-btns .btn.skype:before {
+  background-color: #00aff0;
+}
+.social-btns .btn.skype .fa {
+  color: #00aff0;
+}
+.social-btns .btn:focus:before,
+.social-btns .btn:hover:before {
+  top: -10%;
+  left: -10%;
+}
+.social-btns .btn:focus .fa,
+.social-btns .btn:hover .fa {
+  color: #fff;
+  transform: scale(0.8);
+}
+.social-btns {
+  height: auto;
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+  /* position: relative; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.btn:active,
+.social-btns .btn {
+  display: inline-block;
+  background-color: #fff;
+  width: 90px;
+  height: 90px;
+  line-height: 76px;
+  margin: 0 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 28%;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  opacity: 0.99;
+}
+
+.social-btns .btn:before {
+  content: '';
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.social-btns .btn .fa {
+  font-size: 38px;
+  vertical-align: middle;
+}

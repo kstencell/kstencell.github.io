@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 
 import AboutMe from './AboutMe'
 import Projects from './Projects';
-
+import Contact from './Contact';
 
 
 function Body() {
@@ -16,6 +16,7 @@ function Body() {
         <Container className='body-view'>
             <AboutMe/>
             <Projects/>
+            <Contact/>
         </Container>
      );
 }

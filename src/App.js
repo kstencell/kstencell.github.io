@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavigationBar from './components/NavigationBar';
 import Header from './components/Header';
 import Body from './components/Body';
+import Contact from './components/Contact';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
