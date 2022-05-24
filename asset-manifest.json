@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4fe53e6f.css",
-    "main.js": "/static/js/main.f61e4884.js",
+    "main.css": "/static/css/main.6fc4f14e.css",
+    "main.js": "/static/js/main.26b54762.js",
     "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
     "static/media/richard-hong-wide.jpg": "/static/media/richard-hong-wide.2f90a7079cedabb87c04.jpg",
     "static/media/me.png": "/static/media/me.b94dc4cf21077c84f26b.png",
@@ -12,17 +12,21 @@
     "static/media/curl-up.png": "/static/media/curl-up.2baa253bd67b68114754.png",
     "static/media/guitar-practice-thumbnail.jpg": "/static/media/guitar-practice-thumbnail.8c365e81a8c343b39b7e.jpg",
     "static/media/crew-dragon-thumbnail.png": "/static/media/crew-dragon-thumbnail.1667ebbfcc1d791b7c7f.png",
+    "static/media/soup.png": "/static/media/soup.76fca60938347dbb3db8.png",
     "static/media/pixel-sketch-thumbnail.jpg": "/static/media/pixel-sketch-thumbnail.0553512446ba876316a4.jpg",
     "static/media/brace-left.png": "/static/media/brace-left.a2e0790528bafed01032.png",
     "static/media/brace-right.png": "/static/media/brace-right.f537e4bd95a496370343.png",
+    "static/media/machine-learning.png": "/static/media/machine-learning.3833ddc5ea90581a7d78.png",
+    "static/media/csharp.png": "/static/media/csharp.17411dd30c22e1fe4e4e.png",
+    "static/media/qt-logo.png": "/static/media/qt-logo.2df588bc60d1b4e072f0.png",
     "static/media/sentiment-analysis.png": "/static/media/sentiment-analysis.eda3b718d3cd0c75a37d.png",
     "index.html": "/index.html",
-    "main.4fe53e6f.css.map": "/static/css/main.4fe53e6f.css.map",
-    "main.f61e4884.js.map": "/static/js/main.f61e4884.js.map",
+    "main.6fc4f14e.css.map": "/static/css/main.6fc4f14e.css.map",
+    "main.26b54762.js.map": "/static/js/main.26b54762.js.map",
     "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fe53e6f.css",
-    "static/js/main.f61e4884.js"
+    "static/css/main.6fc4f14e.css",
+    "static/js/main.26b54762.js"
   ]
 }
