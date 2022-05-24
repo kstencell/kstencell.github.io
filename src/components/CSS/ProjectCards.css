@@ -83,14 +83,6 @@
     background-color: #eee;
 }
 
-/* .js-background {
-    margin: 0;
-    padding: 0;
-    height: 28px;
-    width: 28px;
-    background-color: black;
-} */
-
 .stacked-icon-container {
     width: 32px;
     max-width: 32px;
@@ -105,5 +97,23 @@
     margin-right: 12px;
     width: 32px;
     object-fit: contain;
-    /* height: 32px; */
+}
+
+.img-link {
+    max-height: 250px;
+    height: 250px;
+}
+
+a {
+    text-decoration: none;
+    color:#333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#333;
 }

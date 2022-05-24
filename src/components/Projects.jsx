@@ -10,9 +10,18 @@ import ProjectCards from './ProjectCards';
 
 
 function Projects() {
+
+    useEffect(() => {
+        AOS.init({
+          duration: 50,
+          ease: 'ease-out-back'
+        });
+        AOS.refresh();
+      }, []);
+      
     return ( 
         <Row className='projects-view-container d-flex justify-content-center'>
-            <Row className='m-0 projects-title h1 d-flex justify-content-center'>
+            <Row className='m-0 projects-title h1 d-flex justify-content-center' data-aos="fade-up" data-aos-delay="0" data-aos-easing="ease" data-aos-duration="500">
                 Projects
             </Row>
             <ProjectCards/>

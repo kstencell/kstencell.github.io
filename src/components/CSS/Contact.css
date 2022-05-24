@@ -60,18 +60,12 @@
 .social-btns .btn.dribbble .fa {
   color: #f26798;
 }
-.social-btns .btn.skype:before {
-  background-color: #00aff0;
-}
-.social-btns .btn.skype .fa {
-  color: #00aff0;
-}
-.social-btns .btn:focus:before,
+
 .social-btns .btn:hover:before {
   top: -10%;
   left: -10%;
 }
-.social-btns .btn:focus .fa,
+
 .social-btns .btn:hover .fa {
   color: #fff;
   transform: scale(0.8);
@@ -81,7 +75,6 @@
   margin: auto;
   font-size: 0;
   text-align: center;
-  /* position: relative; */
   top: 0;
   bottom: 0;
   left: 0;

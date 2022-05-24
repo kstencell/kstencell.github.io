@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 import AboutMe from './AboutMe'
 import Projects from './Projects';
 import Contact from './Contact';
+import Footer from './Footer';
 
 
 function Body() {
@@ -17,6 +18,7 @@ function Body() {
             <AboutMe/>
             <Projects/>
             <Contact/>
+            <Footer/>
         </Container>
      );
 }

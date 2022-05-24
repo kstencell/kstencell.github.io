@@ -1,16 +1,13 @@
 import React, {useEffect} from 'react';
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './CSS/Body.css';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import './CSS/AboutMe.css'
-
 import ProfilePicture from '../assets/me.png';
 import Note from '../assets/looking-for-work-note.png';
-import CurlUp from '../assets/curl-up.png';
-import CurlDown from '../assets/curl-down.png';
 
 
 function AboutMe() {

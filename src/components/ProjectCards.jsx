@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 import './CSS/ProjectCards.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fa, faBrands, faReact, faBootstrap, faFontAwesome, faSwift, faApple, faPython, faJs, faCss3Alt, faHtml5, faAws } from '@fortawesome/free-brands-svg-icons';
+import { fa, faBrands, faReact, faBootstrap, faFontAwesome, faSwift, faApple, faPython, faJs, faCss3Alt, faHtml5, faAws, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faSquare, faNetworkWired, faFile, faBowlRice, faHammer } from '@fortawesome/free-solid-svg-icons';
 
 import WebsiteThumnail from '../assets/website-thumbnail-w400.jpg';
@@ -43,9 +43,24 @@ function ProjectCards() {
         <Row className='p-0 card-group'>
             <Col className='col-12 col-lg-6 col-xl-4 d-flex justify-content-center' data-aos="fade-up" data-aos-delay="0" data-aos-easing="ease" data-aos-duration="500">
                 <Card>
-                    <Card.Img varient='top' src={WebsiteThumnail} alt='This Website View'/>
+                    <a href='#' className='m-0 p-0 img-link'>
+                        <Card.Img varient='top' src={WebsiteThumnail} alt='This Website View'/>
+                    </a>
                     <Card.Body>
-                        <Card.Title className='h5'>This Website</Card.Title>
+                        <Card.Title>
+                            <Row className='m-0 p-0 justify-content-between align-content-flex-end'>
+                                <Col className='m-0 p-0 align-bottom d-flex'>
+                                    <a href='#' className='m-0 p-0'>
+                                        This Website
+                                    </a>
+                                </Col>
+                                <Col className='col-3 d-flex'>
+                                    <a class="logo-img p-0 m-0" href="https://github.com/kstencell/kstencell.github.io" target='_blank'>
+                                        <FontAwesomeIcon icon={faGithub} color='#333'/>                
+                                    </a>
+                                </Col>
+                            </Row>
+                        </Card.Title>
                         <Card.Text>My software engineering portfolio built entirely from the ground up with React. <br/><br/>This was an interesting project because the graphical design took the majority of development time. Since this website serves as a resume of sorts, it is important that it looks professional. <br/><br/> It became quite the meaningful study into flexible and responsive HTML design. As such, this website looks good on any screen size from mobile to ultrawides which I've now learned is no small feat!</Card.Text>
                     </Card.Body>
                     <ListGroup varient='flush'>
@@ -77,9 +92,24 @@ function ProjectCards() {
             </Col>
             <Col className='col-12 col-lg-6 col-xl-4 d-flex justify-content-center' data-aos="fade-up" data-aos-delay="0" data-aos-easing="ease" data-aos-duration="500">
                 <Card>
-                    <Card.Img varient='top' src={GuitarPracticeThumnail} alt='Guitar Practice Logo'/>
+                    <a href='https://appadvice.com/app/guitar-practice/1513229012' className='m-0 p-0 img-link' target='_blank'>
+                        <Card.Img varient='top' src={GuitarPracticeThumnail} alt='Guitar Practice Logo'/>
+                    </a>
                     <Card.Body>
-                        <Card.Title className='h5'>Guitar Practice</Card.Title>
+                        <Card.Title>
+                            <Row className='m-0 p-0 justify-content-between align-content-flex-end'>
+                                <Col className='m-0 p-0 align-bottom d-flex'>
+                                    <a href='https://appadvice.com/app/guitar-practice/1513229012' className='m-0 p-0' target='_blank'>
+                                        Guitar Practice
+                                    </a>
+                                </Col>
+                                <Col className='col-3 d-flex'>
+                                    <a class="logo-img p-0 m-0" href="https://github.com/kstencell/GuitarPractice" target='_blank'>
+                                        <FontAwesomeIcon icon={faGithub} color='#333'/>                
+                                    </a>
+                                </Col>
+                            </Row>
+                        </Card.Title>
                         <Card.Text>This is an iOS app developed, designed, and deployed solely by myself. It reached #23 on the App Store charts for music apps in Canada.<br/><br/>The premise is that it generates melodic chord progressions using randomly chosen chord positions along the fretboard. By ensuring musical coherence, rote finger exercises are guaranteed to be pleasant to the ear. <br/><br/>This project started as a Python script and then I ported it to iOS so that I could practice guitar on my front porch. </Card.Text>
                     </Card.Body>
                     <ListGroup varient='flush'>
@@ -111,9 +141,24 @@ function ProjectCards() {
             </Col>
             <Col className='col-12 col-lg-6 col-xl-4 d-flex justify-content-center' data-aos="fade-up" data-aos-delay="0" data-aos-easing="ease" data-aos-duration="500">
                 <Card>
-                    <Card.Img varient='top' src={PixelSketchThumnail} alt='Pixel Sketch Logo'/>
+                    <a href='https://kstencell.github.io/pixel-sketch/' className='m-0 p-0 img-link' target='_blank'>
+                        <Card.Img varient='top' src={PixelSketchThumnail} alt='Pixel Sketch Logo'/>
+                    </a>
                     <Card.Body>
-                        <Card.Title className='h5'>Pixel Sketch</Card.Title>
+                        <Card.Title>
+                            <Row className='m-0 p-0 justify-content-between align-content-flex-end'>
+                                <Col className='m-0 p-0 align-bottom d-flex'>
+                                    <a href='https://kstencell.github.io/pixel-sketch/' className='m-0 p-0' target='_blank'>
+                                        Pixel Sketch
+                                    </a>
+                                </Col>
+                                <Col className='col-3 d-flex'>
+                                    <a class="logo-img p-0 m-0" href="https://github.com/kstencell/pixel-sketch" target='_blank'>
+                                        <FontAwesomeIcon icon={faGithub} color='#333'/>                
+                                    </a>
+                                </Col>
+                            </Row>
+                        </Card.Title>
                         <Card.Text>An interactive pixel drawing website which was my first stab at web development and uses only the basic web dev stack.<br/><br/>This project was developed as part of The Odin Project open-source Javascript course. <br/><br/>It served as an introductory study into how Javascript provides interactability to otherwise static pages.</Card.Text>
                     </Card.Body>
                     <ListGroup varient='flush'>
@@ -124,10 +169,6 @@ function ProjectCards() {
                         </ListGroup.Item>
                         <ListGroup.Item>
                             <Row>
-                                {/* <span className="fa-layers fa-fw stacked-icon-container">
-                                    <FontAwesomeIcon icon={faSquare} size='icon-container fa-2x'/>
-                                    <FontAwesomeIcon className='fa-2x icon-container' icon={faJs} color='#f0db4f'/>
-                                </span> */}
                                 <Image className='logo-img' src={JS}/>
                                 <h5 className='list-item-text'>Javascript</h5>
                             </Row>
@@ -149,9 +190,24 @@ function ProjectCards() {
             </Col>
             <Col className='col-12 col-lg-6 col-xl-4 d-flex justify-content-center' data-aos="fade-up" data-aos-delay="0" data-aos-easing="ease" data-aos-duration="500">
                 <Card>
-                    <Card.Img varient='top' src={TicTacToeThumbnail} alt='Tic-Tac-Toe Thumbnail'/>
+                    <a href='https://github.com/ThorCda/COMP72070---TicTacToe---Group-7' className='m-0 p-0 img-link' target='_blank'>
+                        <Card.Img varient='top' src={TicTacToeThumbnail} alt='Tic-Tac-Toe Thumbnail'/>
+                    </a>
                     <Card.Body>
-                        <Card.Title className='h5'>Online Tic-Tac-Toe</Card.Title>
+                        <Card.Title>
+                            <Row className='m-0 p-0 justify-content-between align-content-flex-end'>
+                                <Col className='m-0 p-0 align-bottom d-flex'>
+                                    <a href='https://github.com/ThorCda/COMP72070---TicTacToe---Group-7' className='m-0 p-0' target='_blank'>
+                                        Online Tic-Tac-Toe
+                                    </a>
+                                </Col>
+                                <Col className='col-3 d-flex'>
+                                    <a class="logo-img p-0 m-0" href="https://github.com/ThorCda/COMP72070---TicTacToe---Group-7" target='_blank'>
+                                        <FontAwesomeIcon icon={faGithub} color='#333'/>                
+                                    </a>
+                                </Col>
+                            </Row>
+                        </Card.Title>
                         <Card.Text>This project is the combination of a web server and a client GUI application.<br/><br/>Agile development methodologies were leveraged by myself and three other developers to bring this project to a production quality release.<br/><br/>The database was hosted on AWS to provide account/statistic consistency across remote clients. </Card.Text>
                     </Card.Body>
                     <ListGroup varient='flush'>
@@ -175,7 +231,7 @@ function ProjectCards() {
                         <ListGroup.Item>
                             <Row>
                                 <Image className='logo-img' src={MySQL}/>
-                                <h5 className='list-item-text'>MySQL Database</h5>
+                                <h5 className='list-item-text'>MySQL</h5>
                             </Row>
                         </ListGroup.Item>
                         <ListGroup.Item>
@@ -189,9 +245,24 @@ function ProjectCards() {
             </Col>
             <Col className='col-12 col-lg-6 col-xl-4 d-flex justify-content-center' data-aos="fade-up" data-aos-delay="0" data-aos-easing="ease" data-aos-duration="500">
                 <Card>
-                    <Card.Img varient='top' src={CrewDragonThumbnail} alt='Crew Dragon Thumbnail'/>
+                    <a href='https://github.com/kstencell/Crew-Dragon-HMI' className='m-0 p-0 img-link' target='_blank'>
+                        <Card.Img varient='top' src={CrewDragonThumbnail} alt='Crew Dragon Thumbnail'/>
+                    </a>
                     <Card.Body>
-                        <Card.Title className='h5'>Crew Dragon HMI</Card.Title>
+                        <Card.Title>
+                            <Row className='m-0 p-0 justify-content-between align-content-flex-end'>
+                                <Col className='m-0 p-0 align-bottom d-flex'>
+                                    <a href='https://github.com/kstencell/Crew-Dragon-HMI' className='m-0 p-0' target='_blank'>
+                                        Crew Dragon HMI
+                                    </a>
+                                </Col>
+                                <Col className='col-3 d-flex'>
+                                    <a class="logo-img p-0 m-0" href="https://github.com/kstencell/Crew-Dragon-HMI" target='_blank'>
+                                        <FontAwesomeIcon icon={faGithub} color='#333'/>                
+                                    </a>
+                                </Col>
+                            </Row>
+                        </Card.Title>
                         <Card.Text>A science fiction themed SCADA/HMI program for a spaceship.<br/><br/>Four independent modules (Movement, Alarm, Energy, and Hull Integrity) operate on individual threads that communicate through file I/O. The GUI runs on a fifth thread to provide program responsiveness.<br/><br/>This project was the result of a collaboration with three other developers using agile developement methodologies.</Card.Text>
                     </Card.Body>
                     <ListGroup varient='flush'>
@@ -215,7 +286,7 @@ function ProjectCards() {
                         <ListGroup.Item>
                             <Row>
                                 <Image className='logo-img' src={multithreading}/>
-                                <h5 className='list-item-text'>Background Worker (Multi-Threading)</h5>
+                                <h5 className='list-item-text'>Background Workers (Multi-Threading)</h5>
                             </Row>
                         </ListGroup.Item>
                     </ListGroup>
@@ -225,7 +296,13 @@ function ProjectCards() {
                 <Card>
                     <Card.Img varient='top' src={SentimentAnalysisThumbnail} alt='Sentiment Analysis Thumbnail'/>
                     <Card.Body>
-                        <Card.Title className='h5'>Sentiment Stock Risk Analyzer</Card.Title>
+                        <Card.Title>
+                            <Row className='m-0 p-0 justify-content-between align-content-flex-end'>
+                                <Col className='m-0 p-0 align-bottom d-flex'>
+                                    Sentiment Stock Risk Analyzer
+                                </Col>
+                            </Row>
+                        </Card.Title>
                         <Card.Text>This project involves web scraping well known financial news sites and tracking stock prices of mentioned companies.<br/><br/>Rudimentary machine learning techniques are used to deduce sentiment, categorically predict price movement, and perform risk analysis.<br/><br/>This project is not open-source.</Card.Text>
                     </Card.Body>
                     <ListGroup varient='flush'>
