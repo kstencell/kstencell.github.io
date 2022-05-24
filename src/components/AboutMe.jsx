@@ -25,8 +25,6 @@ function AboutMe() {
 
     return (
         <Row className='about-me-view'>
-            {/* <Image src={CurlUp} className='curl-up'/> */}
-            {/* <Image src={CurlDown} className='curl-down'/> */}
             <Container className='hover-container p-0 m-0'>
                 <Row className='p-0 m-0 about-me-row' data-aos="fade-up" data-aos-delay="0" data-aos-easing="ease" data-aos-duration="500">
                     <Container className='col-md-6 col-lg-4 col-xl-3 p-0 m-0 profile-picture-col d-flex align-items-end'>

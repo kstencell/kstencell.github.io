@@ -16,6 +16,7 @@ function Projects() {
                 Projects
             </Row>
             <ProjectCards/>
+            <a id='contact-anchor'/>
         </Row>
      );
 }

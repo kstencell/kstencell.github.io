@@ -8,7 +8,7 @@ import './CSS/ProjectCards.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fa, faBrands, faReact, faBootstrap, faFontAwesome, faSwift, faApple, faPython, faJs, faCss3Alt, faHtml5, faAws } from '@fortawesome/free-brands-svg-icons';
-import { faSquare, faNetworkWired } from '@fortawesome/free-solid-svg-icons';
+import { faSquare, faNetworkWired, faFile, faBowlRice, faHammer } from '@fortawesome/free-solid-svg-icons';
 
 import WebsiteThumnail from '../assets/website-thumbnail-w400.jpg';
 import PixelSketchThumnail from '../assets/pixel-sketch-thumbnail.jpg';
@@ -22,11 +22,11 @@ import Python from '../assets/python.png';
 import MySQL from '../assets/mysql.png';
 import AWS from '../assets/aws2.png';
 import JS from '../assets/javascript.png';
-
-
-
-
-
+import csharp from '../assets/csharp.png';
+import multithreading from '../assets/multithreading.png';
+import soup from '../assets/soup.png';
+import numpy from '../assets/numpy.png';
+import MachineLearning from '../assets/machine-learning.png';
 
 
 function ProjectCards() {
@@ -96,7 +96,7 @@ function ProjectCards() {
                         </ListGroup.Item>
                         <ListGroup.Item>
                             <Row>
-                                <FontAwesomeIcon className='fa-2x icon-container' icon={faApple} color='#1778e4'/>
+                                <FontAwesomeIcon className='fa-2x icon-container' icon={faHammer} color='#1778e4'/>
                                 <h5 className='list-item-text'>Xcode</h5>
                             </Row>
                         </ListGroup.Item>
@@ -152,7 +152,7 @@ function ProjectCards() {
                     <Card.Img varient='top' src={TicTacToeThumbnail} alt='Tic-Tac-Toe Thumbnail'/>
                     <Card.Body>
                         <Card.Title className='h5'>Online Tic-Tac-Toe</Card.Title>
-                        <Card.Text>This project is the combination of a web server and a client GUI application.<br/><br/>Agile development methodologies were leveraged by myself and three other developers to bring this project to a production quality release.</Card.Text>
+                        <Card.Text>This project is the combination of a web server and a client GUI application.<br/><br/>Agile development methodologies were leveraged by myself and three other developers to bring this project to a production quality release.<br/><br/>The database was hosted on AWS to provide account/statistic consistency across remote clients. </Card.Text>
                     </Card.Body>
                     <ListGroup varient='flush'>
                         <ListGroup.Item className='technology-header'>
@@ -192,8 +192,33 @@ function ProjectCards() {
                     <Card.Img varient='top' src={CrewDragonThumbnail} alt='Crew Dragon Thumbnail'/>
                     <Card.Body>
                         <Card.Title className='h5'>Crew Dragon HMI</Card.Title>
-                        <Card.Text>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Card.Text>
+                        <Card.Text>A science fiction themed SCADA/HMI program for a spaceship.<br/><br/>Four independent modules (Movement, Alarm, Energy, and Hull Integrity) operate on individual threads that communicate through file I/O. The GUI runs on a fifth thread to provide program responsiveness.<br/><br/>This project was the result of a collaboration with three other developers using agile developement methodologies.</Card.Text>
                     </Card.Body>
+                    <ListGroup varient='flush'>
+                        <ListGroup.Item className='technology-header'>
+                            <Row className='p-0 m-0'>
+                                <h5 className='list-item-header'>Technologies</h5>
+                            </Row>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <Row>
+                                <Image className='logo-img' src={csharp}/>
+                                <h5 className='list-item-text'>C#</h5>
+                            </Row>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <Row>
+                                <FontAwesomeIcon className='fa-2x icon-container' icon={faFile} color='#125282'/>
+                                <h5 className='list-item-text'>Windows Forms</h5>
+                            </Row>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <Row>
+                                <Image className='logo-img' src={multithreading}/>
+                                <h5 className='list-item-text'>Background Worker (Multi-Threading)</h5>
+                            </Row>
+                        </ListGroup.Item>
+                    </ListGroup>
                 </Card>
             </Col>
             <Col className='col-12 col-lg-6 col-xl-4 d-flex justify-content-center' data-aos="fade-up" data-aos-delay="0" data-aos-easing="ease" data-aos-duration="500">
@@ -201,8 +226,39 @@ function ProjectCards() {
                     <Card.Img varient='top' src={SentimentAnalysisThumbnail} alt='Sentiment Analysis Thumbnail'/>
                     <Card.Body>
                         <Card.Title className='h5'>Sentiment Stock Risk Analyzer</Card.Title>
-                        <Card.Text>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Card.Text>
+                        <Card.Text>This project involves web scraping well known financial news sites and tracking stock prices of mentioned companies.<br/><br/>Rudimentary machine learning techniques are used to deduce sentiment, categorically predict price movement, and perform risk analysis.<br/><br/>This project is not open-source.</Card.Text>
                     </Card.Body>
+                    <ListGroup varient='flush'>
+                        <ListGroup.Item className='technology-header'>
+                            <Row className='p-0 m-0'>
+                                <h5 className='list-item-header'>Technologies</h5>
+                            </Row>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <Row>
+                                <Image className='logo-img' src={Python}/>
+                                <h5 className='list-item-text'>Python</h5>
+                            </Row>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <Row>
+                                <Image className='logo-img' src={numpy}/>
+                                <h5 className='list-item-text'>Numpy</h5>
+                            </Row>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <Row>
+                                <Image className='logo-img' src={soup}/>
+                                <h5 className='list-item-text'>Beautiful Soup</h5>
+                            </Row>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <Row>
+                                <Image className='logo-img' src={MachineLearning}/>
+                                <h5 className='list-item-text'>Machine Learning</h5>
+                            </Row>
+                        </ListGroup.Item>
+                    </ListGroup>
                 </Card>
             </Col>
         </Row>

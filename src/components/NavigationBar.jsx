@@ -16,7 +16,7 @@ function NavigationBar() {
                 <Nav.Link href='#projects-anchor' onClick={() => this.className='nav-link'}>Projects</Nav.Link>
             </Nav>
             <Nav>
-                <Nav.Link href=''>Contact</Nav.Link>
+                <Nav.Link href='#contact-anchor' onClick={() => this.className='nav-link'}>Contact</Nav.Link>
             </Nav>
         </Container>
         </Navbar>
