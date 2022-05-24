@@ -7,6 +7,15 @@ import "aos/dist/aos.css";
 import './CSS/Footer.css';
 
 function Footer() {
+
+    useEffect(() => {
+        AOS.init({
+          duration: 1000,
+          ease: 'ease-out-back'
+        });
+        AOS.refresh();
+      }, []);
+
     return ( 
         <Row className='w-100 justify-content-center footer text-center'>
             <h5 className='email'>karldstencell@gmail.com</h5>
