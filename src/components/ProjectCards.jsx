@@ -7,15 +7,15 @@ import "aos/dist/aos.css";
 import './CSS/ProjectCards.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fa, faBrands, faReact, faBootstrap, faFontAwesome, faSwift, faApple, faPython, faJs, faCss3Alt, faHtml5, faAws, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { fa, faBrands, faReact, faBootstrap, faFontAwesome, faSwift, faApple, faPython, faJs, faCss3Alt, faHtml5, faAws, faGithub, faDocker, faDigitalOcean } from '@fortawesome/free-brands-svg-icons';
 import { faSquare, faNetworkWired, faFile, faBowlRice, faHammer } from '@fortawesome/free-solid-svg-icons';
-
 import WebsiteThumnail from '../assets/website-thumbnail-w400.jpg';
 import PixelSketchThumnail from '../assets/pixel-sketch-thumbnail.jpg';
 import GuitarPracticeThumnail from '../assets/guitar-practice-thumbnail.jpg';
 import TicTacToeThumbnail from '../assets/tic-tac-toe-thumbnail.png';
 import CrewDragonThumbnail from '../assets/crew-dragon-thumbnail.png';
 import SentimentAnalysisThumbnail from '../assets/sentiment-analysis.png';
+import MarketMashThumbnail from '../assets/marketmash-thumbnail.png';
 import Cpp from '../assets/cpp.png';
 import Qt from '../assets/qt-logo.png';
 import Python from '../assets/python.png';
@@ -27,6 +27,7 @@ import multithreading from '../assets/multithreading.png';
 import soup from '../assets/soup.png';
 import numpy from '../assets/numpy.png';
 import MachineLearning from '../assets/machine-learning.png';
+import Nginx from '../assets/nginx-logo.png'
 
 
 function ProjectCards() {
@@ -41,6 +42,61 @@ function ProjectCards() {
 
     return ( 
         <Row className='p-0 card-group'>
+            <Col className='col-12 col-lg-6 col-xl-4 d-flex justify-content-center' data-aos="fade-up" data-aos-delay="0" data-aos-easing="ease" data-aos-duration="500">
+                <Card>
+                    <a href='https://www.marketmash.ca' target='_blank' className='m-0 p-0 img-link'>
+                        <Card.Img varient='top' src={MarketMashThumbnail} alt='Market Mash'/>
+                    </a>
+                    <Card.Body>
+                        <Card.Title>
+                            <Row className='m-0 p-0 justify-content-between align-content-flex-end'>
+                                <Col className='m-0 p-0 align-bottom d-flex'>
+                                    <a href='https://www.marketmash.ca' target='_blank' className='m-0 p-0'>
+                                        MarketMash
+                                    </a>
+                                </Col>
+                                <Col className='col-3 d-flex'>
+                                    <a class="logo-img p-0 m-0" href="https://github.com/kstencell/MarketMash" target='_blank'>
+                                        <FontAwesomeIcon icon={faGithub} color='#333'/>                
+                                    </a>
+                                </Col>
+                            </Row>
+                        </Card.Title>
+                        <Card.Text>Did you know that Adobe is a bigger than The Walt Disney Company? Or that NVIDIA is worth more than Walmart? <br/><br/> Inspired by Mark Zuckerberg's infamous sophomore project FaceMash, MarketMash chooses from the 100 biggest companies in the world and has you guess which one you think is bigger! <br/><br/>This website is self-hosted on a Digital Ocean droplet. The project consists of 6 Docker Containers networked via Docker-Compose for the webserver/api/db/etc. Supports HTTPS.  <br/><br/> It's just a simple game but it proved to be an incredible exercise for designing microservice architecture and to take my full stack developer skills to the next level</Card.Text>
+                    </Card.Body>
+                    <ListGroup varient='flush'>
+                        <ListGroup.Item className='technology-header'>
+                            <Row className='p-0 m-0'>
+                                <h5 className='list-item-header'>Technologies</h5>
+                            </Row>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <Row>
+                                <FontAwesomeIcon className='fa-2x icon-container' icon={faReact} color='#61DBFB'/>
+                                <h5 className='list-item-text'>React</h5>
+                            </Row>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <Row>
+                                <FontAwesomeIcon className='fa-2x icon-container' icon={faDocker} color='#2497ED'/>
+                                <h5 className='list-item-text'>Docker</h5>
+                            </Row>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <Row>
+                                <Image className='logo-img' src={Nginx}/>
+                                <h5 className='list-item-text'>Nginx</h5>
+                            </Row>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <Row>
+                                <FontAwesomeIcon className='fa-2x icon-container' icon={faDigitalOcean} color='#0069FF'/>
+                                <h5 className='list-item-text'>Digital Ocean</h5>
+                            </Row>
+                        </ListGroup.Item>
+                    </ListGroup>
+                </Card>
+            </Col>
             <Col className='col-12 col-lg-6 col-xl-4 d-flex justify-content-center' data-aos="fade-up" data-aos-delay="0" data-aos-easing="ease" data-aos-duration="500">
                 <Card>
                     <a href='#' className='m-0 p-0 img-link'>
