@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.822bd7fb.css",
-    "main.js": "/static/js/main.f4ffcbd1.js",
+    "main.js": "/static/js/main.94ea3078.js",
     "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
     "static/media/richard-hong-wide.jpg": "/static/media/richard-hong-wide.2f90a7079cedabb87c04.jpg",
     "static/media/me.png": "/static/media/me.b94dc4cf21077c84f26b.png",
     "static/media/website-thumbnail-w400.jpg": "/static/media/website-thumbnail-w400.d71a7cadfed3cd1be380.jpg",
     "static/media/tic-tac-toe-thumbnail.png": "/static/media/tic-tac-toe-thumbnail.04f799476603e908814f.png",
+    "static/media/marketmash-thumbnail.png": "/static/media/marketmash-thumbnail.41e2b5945e9095c12aca.png",
     "static/media/looking-for-work-note.png": "/static/media/looking-for-work-note.b3fd8a3dc079c55dc7fd.png",
     "static/media/guitar-practice-thumbnail.jpg": "/static/media/guitar-practice-thumbnail.8c365e81a8c343b39b7e.jpg",
     "static/media/crew-dragon-thumbnail.png": "/static/media/crew-dragon-thumbnail.1667ebbfcc1d791b7c7f.png",
@@ -20,11 +21,11 @@
     "static/media/sentiment-analysis.png": "/static/media/sentiment-analysis.eda3b718d3cd0c75a37d.png",
     "index.html": "/index.html",
     "main.822bd7fb.css.map": "/static/css/main.822bd7fb.css.map",
-    "main.f4ffcbd1.js.map": "/static/js/main.f4ffcbd1.js.map",
+    "main.94ea3078.js.map": "/static/js/main.94ea3078.js.map",
     "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.822bd7fb.css",
-    "static/js/main.f4ffcbd1.js"
+    "static/js/main.94ea3078.js"
   ]
 }
